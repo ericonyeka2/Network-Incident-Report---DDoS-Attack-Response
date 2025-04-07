@@ -22,6 +22,7 @@ This project involved analyzing and responding to a DDoS attack on a fictional m
 - The company experienced a Distributed Denial of Service (DDoS) attack using ICMP packets, disrupting internal services for 2 hours.  
 - The attack exposed an unconfigured firewall, allowing malicious traffic into the network.
 
+
 *Ref 2: Identify (NIST CSF)*  
 - Weakness discovered: Firewall lacked ICMP filtering and rate limiting.  
 - Regular network audits recommended to find similar gaps.  
@@ -51,5 +52,5 @@ This project involved analyzing and responding to a DDoS attack on a fictional m
 This incident report demonstrates the importance of a proactive cybersecurity approach using the NIST CSF. The organization effectively mitigated a real-time threat and implemented long-term security improvements, including firewall reconfiguration, monitoring tools, and response protocols. Applying this framework helps strengthen resilience and ensures the organization is better prepared for future threats.
 
 ## References  
-- [Incident Report Template](https://docs.google.com/document/d/1EnieOKYJyKGsVff5Gg-3-dVwrHrZ2m8Hig6tVpfKqyg/template/preview?resourcekey=0-eb5t-d69zTPLEGthIpVlXw)  
+- [Incident Report Template](https://docs.google.com/document/d/14FWNOzxCUK4gLj_sSXEVBVk-BDVkXi18hAWDh0vRgUU/edit?tab=t.0)
 - [Applying the NIST CSF](https://docs.google.com/document/d/15yCDbDCOAcJw-LTz2DeCA7UeLRfvsf176T6MA6ku6ok/template/preview)
