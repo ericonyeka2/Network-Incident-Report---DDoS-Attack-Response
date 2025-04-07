@@ -47,10 +47,9 @@ This project involved analyzing and responding to a DDoS attack on a fictional m
 - The team conducted a post-incident review.  
 - Recovery procedures were documented and tested.
 
-*Screenshots & Documentation*  
-- Add screenshots of the report analysis, configuration updates, or monitoring setup here.  
-(You can use tools like Imgur or GitHub image embedding)
+## Conclusion  
+This incident report demonstrates the importance of a proactive cybersecurity approach using the NIST CSF. The organization effectively mitigated a real-time threat and implemented long-term security improvements, including firewall reconfiguration, monitoring tools, and response protocols. Applying this framework helps strengthen resilience and ensures the organization is better prepared for future threats.
 
----
-
-Let me know once you’ve added your own screenshots or filled in specific report content, and I can help you polish the final version.
+## References  
+- [Incident Report Template – Google Docs](https://docs.google.com/document/d/1EnieOKYJyKGsVff5Gg-3-dVwrHrZ2m8Hig6tVpfKqyg/template/preview?resourcekey=0-eb5t-d69zTPLEGthIpVlXw)  
+- [Example Analysis – Google Docs](https://docs.google.com/document/d/15yCDbDCOAcJw-LTz2DeCA7UeLRfvsf176T6MA6ku6ok/template/preview)
