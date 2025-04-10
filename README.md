@@ -17,8 +17,9 @@ This project involved analyzing and responding to a DDoS attack on a fictional m
 - Google Docs (for documentation/report writing)
 
 ## Steps  
+#### These steps include screenshots taken from the Incident Response Template utilized during the process.
 
-### Ref 1: Summary of the Incident 
+### 1. Summary of the Incident 
 - The company experienced a Distributed Denial of Service (DDoS) attack using ICMP packets, disrupting internal services for 2 hours.  
 - The attack exposed an unconfigured firewall, allowing malicious traffic into the network.
 <img width="707" alt="Screenshot 2025-04-07 at 18 04 36" src="https://github.com/user-attachments/assets/7454c3fe-e9b3-46b8-8f8a-aea309cba1e2" />
@@ -26,7 +27,7 @@ This project involved analyzing and responding to a DDoS attack on a fictional m
   The image shows the summary from the incident report analysis
 
 
-### Ref 2: Identify (NIST CSF)
+### 2. Identify (NIST CSF)
 - Weakness discovered: Firewall lacked ICMP filtering and rate limiting.  
 - Regular network audits recommended to find similar gaps.  
 - Access control and firewall configuration needed review.
@@ -34,7 +35,7 @@ This project involved analyzing and responding to a DDoS attack on a fictional m
 
  The image shows the identify plan from the incident report analysis
 
-### Ref 3: Protect
+### 3. Protect
 - A new firewall rule was created to limit incoming ICMP packets.  
 - Source IP address verification was implemented to detect spoofed traffic.  
 - Staff were reminded of incident handling protocols.
@@ -42,7 +43,7 @@ This project involved analyzing and responding to a DDoS attack on a fictional m
 
  The image shows the protect plan from the incident report analysis
 
-### Ref 4: Detect 
+### 4. Detect 
 - Network monitoring tools were introduced to track traffic anomalies.  
 - An IDS/IPS was deployed to detect and flag suspicious ICMP traffic.  
 - Alerts were configured to notify the team in case of future traffic spikes.
@@ -50,7 +51,7 @@ This project involved analyzing and responding to a DDoS attack on a fictional m
 
 The image shows the detect plan from the incident report analysis
 
-### Ref 5: Respond
+### 5. Respond
 - ICMP packets were blocked immediately during the attack.  
 - Non-essential network services were disabled temporarily.  
 - The attack was contained and logged for analysis.
@@ -58,7 +59,7 @@ The image shows the detect plan from the incident report analysis
 
  The image shows the respond plan from the incident report analysis
 
-### Ref 6: Recover
+### 6. Recover
 - Critical services were restored after traffic normalized.  
 - The team conducted a post-incident review.  
 - Recovery procedures were documented and tested.
